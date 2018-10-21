@@ -13,3 +13,8 @@ h1, .h1 {
     text-align: center;
     margin: auto;
 }
+
+input:focus, textarea:focus, a:focus, button:focus, [tabindex]:focus {
+    outline: 1px solid #000;
+    box-shadow: 0 0 2px 2px inset;
+}
